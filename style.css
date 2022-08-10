@@ -1,0 +1,76 @@
+body {
+    font-family: 'Yomogi', cursive;
+    margin: 5%;
+    display: grid;
+    justify-content: center;
+    background: url("diary.jpg");
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    /* border-bottom: 1px solid #073b4c; */
+    color: #495057;
+    text-shadow: 0 1px black;
+}
+
+.entry-textbox {
+    width: 25rem;
+    height: 15rem;
+    padding: 1rem;
+    border: unset;
+    border-radius: 6px;
+    background-color: #c5ecac;
+    font-family: 'Yomogi', cursive;
+    font-size: 20px;
+}
+
+.entry-textbox:focus {
+    outline: none;
+    box-shadow: 0px 0px 2px #000;
+}
+
+#entryForm .button {
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 80%;
+    background: #8e9aaf;
+    font-family: 'Yomogi', cursive;
+    font-size: 1rem;
+}
+
+#entryForm .button:hover { 
+    font-weight: bold;
+    background-color: #495057;
+    color: white;
+} 
+
+/* #entryForm .button:active {
+    background-color: #c5ecac;
+    color: black;
+} */
+
+#entries {
+    background-color: #d4a373;
+    font-size: 22px;
+    color: #212529;
+    border-radius: 10px;
+    border: unset;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.entries-nav {
+    padding-bottom: 1rem;
+}
+
+.display-entry-button {
+    margin: 0.2rem;
+}
+
+.display-entry-button:hover {
+    cursor: pointer;
+    background-color:#8e9aaf;
+}
